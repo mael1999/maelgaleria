@@ -58,3 +58,10 @@ section {
     padding: 40px;
     text-align: center;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
