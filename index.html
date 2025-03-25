@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pachay - Galería de Fotografía</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
+    <meta name="snipcart-api-key" content="TU_CLAVE_DE_API">
+</head>
+<body>
+    <header>
+        <h1>Pachay</h1>
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><button class="snipcart-checkout">Carrito</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="galeria">
+        <h2>Mis Fotografías</h2>
+        <div class="grid">
+            <div class="foto">
+                <img src="foto1.jpg" alt="Paisaje Montañoso">
+                <button class="snipcart-add-item" 
+                    data-item-id="foto1" 
+                    data-item-name="Paisaje Montañoso"
+                    data-item-price="20.00"
+                    data-item-url="/"
+                    data-item-image="foto1.jpg">Comprar</button>
+            </div>
+            <div class="foto">
+                <img src="foto2.jpg" alt="Atardecer en la Playa">
+                <button class="snipcart-add-item" 
+                    data-item-id="foto2" 
+                    data-item-name="Atardecer en la Playa"
+                    data-item-price="25.00"
+                    data-item-url="/"
+                    data-item-image="foto2.jpg">Comprar</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para consultas, escríbeme a <a href="mailto:contacto@pachay.com">contacto@pachay.com</a></p>
+    </section>
+</body>
+</html>
